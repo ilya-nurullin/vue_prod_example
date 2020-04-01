@@ -1,0 +1,55 @@
+@import "helpers/button";
+@import "helpers/margin-padding";
+@import "helpers/flex";
+
+.h100p {
+  height: 100%;
+}
+
+.w100p {
+  width: 100%;
+}
+
+.float-right {
+  float: right;
+}
+
+.color-red {
+  color: #db2828;
+}
+
+.text-align-right {
+  text-align: right;
+}
+.text-align-center {
+  text-align: center;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.js-link {
+  border-bottom: 1px dotted;
+  cursor: pointer;
+}
+
+.white-space-normal {
+  white-space: normal !important;
+}
+
+@import "adaptivity";
+
+@include mobile {
+  .ui.table tr > th.hide-on-mobile, .ui.table tr > td.hide-on-mobile{
+    display: none !important;
+  }
+
+  .hide-on-mobile {
+    display: none !important;
+  }
+}

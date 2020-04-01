@@ -1,0 +1,20 @@
+html, body {
+  font-size: 15px;
+  //overflow-x: auto;
+}
+
+#app {
+  overflow-x: auto;
+  height: 100%;
+}
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+@import "~vue-multiselect/dist/vue-multiselect.min.css";
+@import "helpers";
+@import "menu";
+@import "search-box";
+

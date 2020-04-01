@@ -1,0 +1,9 @@
+.search-box {
+  background: #4d4e63;
+  padding: 1rem;
+  color: #fff;
+
+  input::placeholder {
+    color: #999!important;
+  }
+}

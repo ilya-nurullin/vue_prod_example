@@ -1,0 +1,21 @@
+nav {
+  border: 0!important;
+  border-radius: 0!important;
+  margin-bottom: 0!important;
+
+   .header.item {
+    font-size: 1.3rem!important;
+    padding-bottom: .5rem!important;
+    padding-top: .5rem!important;
+
+     > img.logo {
+       max-width: 100%;
+       height: 2em;
+       width: auto!important;
+     }
+  }
+
+  .item {
+    text-transform: uppercase!important;
+  }
+}
